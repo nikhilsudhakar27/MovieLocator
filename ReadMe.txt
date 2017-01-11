@@ -20,10 +20,3 @@ With this application, the user can search a movie and will get only the locatio
 Because of the time constraints, only the search with movie name was provided to the user. But we can view the locations of the movies by various other parameters as well. We can view all the movie locations by providing a particular actor or by providing directors name, or by providing productions companies name in the search field. The results will be interesting as it will provide a particular pattern for a particular director or a production company and also locate which areas and locations are generally preferred by those individuals.
 As an additional feature, we can find an optimal shortest path for a user to visit all the locations displayed on the user interface.
  
-Link to the Github repository of this application: https://github.com/NikhilChavan10/SF-Movie-Locations
-
-Link to the Public profile: http://nikhils-chavan.com
-
-Resume: http://nikhils-chavan.com/Resume.pdf
-
-Link to the application: http://nikhils-chavan.com/movieProject/index.html
