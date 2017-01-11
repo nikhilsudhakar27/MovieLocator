@@ -1,0 +1,37 @@
+  <!DOCTYPE html>
+  <html>
+  <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Search Movie location</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <script src="js/myScript.js" async></script>
+  </head>
+  <body>
+  <div id="floating-panel">
+  <div class="content">
+  <form method="post">
+  <div class="row">
+  <div class="col-xs-6"><input class="movie form-control" id="movieAutocomplete" name="movie" placeholder="Enter a Movie name" type="text" /></div>
+
+  <div class="col-md-2"><input id="submit" class="btn btn-success" type="button" value="Search" /></div>
+  </div>
+
+  <div class="row">
+  <div class="col-xs-6">
+  <div id="suggest"></div>
+  </div>
+  </div>
+  </form>
+  </div>
+
+  <div id="suggest"></div>
+  </div>
+
+  <div id="map"></div>
+  <script>
+    
+    </script><script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIacHHJrYBkMAsw0KJ38GjwiuvKB5re34&libraries=places&callback=initMap"
+    async defer></script></body>
+  </html>
